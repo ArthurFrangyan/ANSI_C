@@ -1,0 +1,9 @@
+for (...)
+	for(...){
+		...
+		if (disaster)
+			goto error;
+	}
+...
+error:
+	...

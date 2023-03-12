@@ -1,5 +1,1 @@
-#include <stdio.h>
-main()
-{
-	printf("hello, world\n");
-}
+Режим вывода команд на экран (ECHO) включен.

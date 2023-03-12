@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-main()
+int main()
 {
-	
+	int a[10];
+	a[0] = 2;
+	printf("%d",*a);
+	return 0;	
 }

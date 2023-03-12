@@ -1,7 +1,10 @@
 SRC = $(wildcard *.c)
-all : 
-	gcc $(SRC)
+TARGET = a
+TARGET : 
+	gcc $(SRC) -o $(TARGET)
 
+clean :
+	del .\\a.exe
 
 
 # CC = gcc

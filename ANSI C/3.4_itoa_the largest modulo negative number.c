@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
+#include <math.h>
+
 #define MAXLINE 100
 
 void itoa ( int n, char s[]);

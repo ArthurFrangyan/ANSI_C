@@ -1,8 +1,13 @@
-#include <stdio.h>
+#include <ncurses.h>
 
-int main()
-{
-	char i = 2;
-	printf("%d", 0<(i+1)/2);
-	return 0;
+int main() {
+    initscr(); // initialize ncurses
+    keypad(stdscr, TRUE); // enable keypad
+    noecho(); // don't echo input to screen
+    int ch;
+    while ((ch = getch()) != KEY_F(1)) {
+        // handle other keys
+    }
+    endwin(); // close ncurses
+    return 0;
 }
